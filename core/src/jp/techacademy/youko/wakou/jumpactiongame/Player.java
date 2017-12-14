@@ -42,7 +42,7 @@ public class Player extends GameObject {
             }
         }
 
-        if (getX() + PLAYER_WIDTH + PLAYER_WIDTH/2 < 0){
+        if (getX() + PLAYER_WIDTH /2 < 0){
             setX(GameScreen.WORLD_WIDTH - PLAYER_WIDTH/2);
         }else if(getX() + PLAYER_WIDTH/2 > GameScreen.WORLD_WIDTH){
             setX(0);
